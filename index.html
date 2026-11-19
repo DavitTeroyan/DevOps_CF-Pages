@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn DevOps from the basics to advanced technologies.">
+    <title>DevOps Academy | Learn. Build. Automate.</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <div class="background-glow glow-one"></div>
+    <div class="background-glow glow-two"></div>
+
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#" class="logo">
+                <span class="logo-icon">D</span>
+                <span>DevOps<span class="logo-highlight">Academy</span></span>
+            </a>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+                ☰
+            </button>
+
+            <div class="nav-links" id="navLinks">
+                <a href="#home">Home</a>
+                <a href="#courses">Courses</a>
+                <a href="#roadmap">Roadmap</a>
+                <a href="#about">About</a>
+            </div>
+
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                ☀️
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero container" id="home">
+            <div class="hero-content reveal">
+                <div class="status-label">
+                    <span class="status-dot"></span>
+                    YOUR DEVOPS JOURNEY STARTS HERE
+                </div>
+
+                <h1>
+                    Build. Automate.
+                    <span>Scale with DevOps.</span>
+                </h1>
+
+                <p>
+                    Master modern DevOps technologies, automate workflows,
+                    manage infrastructure and build the future of software delivery.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#courses" class="btn btn-primary">Explore Courses <span>→</span></a>
+                    <a href="#roadmap" class="btn btn-secondary">View Roadmap</a>
+                </div>
+
+                <div class="hero-stats">
+                    <div>
+                        <strong>09+</strong>
+                        <span>Learning Modules</span>
+                    </div>
+                    <div>
+                        <strong>∞</strong>
+                        <span>Possibilities</span>
+                    </div>
+                    <div>
+                        <strong>100%</strong>
+                        <span>Hands-on Learning</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-visual reveal">
+                <div class="terminal-window">
+                    <div class="terminal-header">
+                        <div class="terminal-dots">
+                            <span></span><span></span><span></span>
+                        </div>
+                        <span>devops-terminal</span>
+                    </div>
+
+                    <div class="terminal-body">
+                        <p><span class="terminal-green">user@devops</span>:~$ whoami</p>
+                        <p class="terminal-output">Future DevOps Engineer</p>
+
+                        <p><span class="terminal-green">user@devops</span>:~$ skills --list</p>
+                        <p class="terminal-blue">Docker</p>
+                        <p class="terminal-blue">Kubernetes</p>
+                        <p class="terminal-blue">Terraform</p>
+                        <p class="terminal-blue">AWS</p>
+                        <p class="terminal-blue">CI/CD</p>
+
+                        <p><span class="terminal-green">user@devops</span>:~$ <span class="cursor">_</span></p>
+                    </div>
+                </div>
+
+                <div class="floating-card floating-top">
+                    <span>🚀</span>
+                    <div>
+                        <strong>Deploy faster</strong>
+                        <small>Automate everything</small>
+                    </div>
+                </div>
+
+                <div class="floating-card floating-bottom">
+                    <span>⚙️</span>
+                    <div>
+                        <strong>Infrastructure</strong>
+                        <small>As Code</small>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="courses-section section-padding" id="courses">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <span class="eyebrow">WHAT YOU WILL LEARN</span>
+                    <h2>Explore the <span>DevOps Universe</span></h2>
+                    <p>Everything you need to understand modern infrastructure and automation.</p>
+                </div>
+
+                <div class="courses-grid">
+
+                    <article class="course-card reveal">
+                        <div class="course-icon">🔐</div>
+                        <span class="course-number">01</span>
+                        <h3>Ansible & SSH</h3>
+                        <p>Automate server configuration and securely connect to remote machines using SSH.</p>
+                        <a href="#roadmap">Explore topic <span>→</span></a>
+                    </article>
+
+                    <article class="course-card reveal">
+                        <div class="course-icon">💻</div>
+                        <span class="course-number">02</span>
+                        <h3>Virtualization</h3>
+                        <p>Understand virtual machines, hypervisors and how to work with VirtualBox.</p>
+                        <a href="#roadmap">Explore topic <span>→</span></a>
+                    </article>
+
+                    <article class="course-card reveal">
+                        <div class="course-icon">🐳</div>
+                        <span class="course-number">03</span>
+                        <h3>Docker</h3>
+                        <p>Learn containers, images, volumes, networks and Docker Compose.</p>
+                        <a href="#roadmap">Explore topic <span>→</span></a>
+                    </article>
+
+                    <article class="course-card reveal">
+                        <div class="course-icon">🔄</div>
+                        <span class="course-number">04</span>
+                        <h3>CI/CD</h3>
+                        <p>Build automated pipelines for testing, integrating and deploying applications.</p>
+                        <a href="#roadmap">Explore topic <span>→</span></a>
+                    </article>
+
+                    <article class="course-card reveal">
+                        <div class="course-icon">☁️</div>
+                        <span class="course-number">05</span>
+                        <h3>Amazon AWS</h3>
+                        <p>Discover cloud computing, EC2, S3, IAM and essential AWS services.</p>
+                        <a href="#roadmap">Explore topic <span>→</span></a>
+                    </article>
+
+                    <article class="course-card reveal">
+                        <div class="course-icon">☸️</div>
+                        <span class="course-number">06</span>
+                        <h3>Kubernetes</h3>
+                        <p>Orchestrate containers and manage scalable, resilient applications.</p>
+                        <a href="#roadmap">Explore topic <span>→</span></a>
+                    </article>
+
+                    <article class="course-card reveal">
+                        <div class="course-icon">🏗️</div>
+                        <span class="course-number">07</span>
+                        <h3>Terraform</h3>
+                        <p>Provision and manage cloud infrastructure using Infrastructure as Code.</p>
+                        <a href="#roadmap">Explore topic <span>→</span></a>
+                    </article>
+
+                    <article class="course-card reveal">
+                        <div class="course-icon">📊</div>
+                        <span class="course-number">08</span>
+                        <h3>Monitoring</h3>
+                        <p>Monitor systems, collect metrics and visualize infrastructure performance.</p>
+                        <a href="#roadmap">Explore topic <span>→</span></a>
+                    </article>
+
+                    <article class="course-card reveal">
+                        <div class="course-icon">🔎</div>
+                        <span class="course-number">09</span>
+                        <h3>Observability</h3>
+                        <p>Explore Prometheus, Grafana, Loki and Alloy for logs, metrics and insights.</p>
+                        <a href="#roadmap">Explore topic <span>→</span></a>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="roadmap-section section-padding" id="roadmap">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <span class="eyebrow">YOUR LEARNING PATH</span>
+                    <h2>The DevOps <span>Roadmap</span></h2>
+                    <p>Follow a practical path from fundamentals to advanced infrastructure.</p>
+                </div>
+
+                <div class="roadmap">
+                    <div class="roadmap-item reveal">
+                        <div class="roadmap-marker">01</div>
+                        <div class="roadmap-content">
+                            <span>FOUNDATIONS</span>
+                            <h3>Learn the Fundamentals</h3>
+                            <p>Linux, SSH, Ansible and Virtualization.</p>
+                        </div>
+                    </div>
+
+                    <div class="roadmap-item reveal">
+                        <div class="roadmap-marker">02</div>
+                        <div class="roadmap-content">
+                            <span>CONTAINERS & AUTOMATION</span>
+                            <h3>Build and Automate</h3>
+                            <p>Docker, CI/CD and automated workflows.</p>
+                        </div>
+                    </div>
+
+                    <div class="roadmap-item reveal">
+                        <div class="roadmap-marker">03</div>
+                        <div class="roadmap-content">
+                            <span>CLOUD & INFRASTRUCTURE</span>
+                            <h3>Scale Your Applications</h3>
+                            <p>AWS, Kubernetes and Terraform.</p>
+                        </div>
+                    </div>
+
+                    <div class="roadmap-item reveal">
+                        <div class="roadmap-marker">04</div>
+                        <div class="roadmap-content">
+                            <span>VISIBILITY & RELIABILITY</span>
+                            <h3>Monitor Everything</h3>
+                            <p>Prometheus, Grafana, Loki and Alloy.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-section section-padding" id="about">
+            <div class="container about-box reveal">
+                <div>
+                    <span class="eyebrow">ABOUT THE ACADEMY</span>
+                    <h2>Learn today.<br><span>Build tomorrow.</span></h2>
+                </div>
+
+                <div class="about-description">
+                    <p>
+                        DevOps Academy is a learning space dedicated to the tools,
+                        technologies and practices that power modern software delivery.
+                    </p>
+                    <p>
+                        From automation and containers to cloud infrastructure and
+                        observability, explore the technologies behind reliable systems.
+                    </p>
+                    <a href="#courses" class="btn btn-primary">Start Learning →</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <a href="#" class="logo">
+                <span class="logo-icon">D</span>
+                <span>DevOps<span class="logo-highlight">Academy</span></span>
+            </a>
+
+            <p>Learn. Build. Automate. Scale.</p>
+            <span class="copyright">© 2026 DevOps Academy. All rights reserved.</span>
+        </div>
+    </footer>
+
+</body>
+</html>
